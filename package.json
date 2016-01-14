@@ -1,0 +1,30 @@
+{
+  "name": "mocha-babel-watch",
+  "version": "1.0.0",
+  "description": "mocha watch i.c.w. babel",
+  "main": "index.js",
+  "scripts": {
+    "test-without-babel": "mocha --watch \"test/**/*.spec.js\"",
+    "test-with-babel": "mocha --require babel-register --watch \"test/**/*.spec.jsx\"",
+    "test": "npm run test-with-babel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Download/mocha-babel-watch.git"
+  },
+  "keywords": [
+    "mocha",
+    "babel",
+    "watch"
+  ],
+  "author": "Stijn de Witt",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/Download/mocha-babel-watch/issues"
+  },
+  "homepage": "https://github.com/Download/mocha-babel-watch#readme",
+  "devDependencies": {
+    "babel-register": "^6.4.3",
+    "mocha": "^2.3.4"
+  }
+}
