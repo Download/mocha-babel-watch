@@ -1,5 +1,7 @@
 # mocha-babel-watch
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Download/mocha-babel-watch.svg)](https://greenkeeper.io/)
+
 **Demonstrates [issue #1987](https://github.com/mochajs/mocha/issues/1987) in Mocha JS**
 
 ## How to verify the issue
